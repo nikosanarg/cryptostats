@@ -1,4 +1,3 @@
-import { clear } from '@testing-library/user-event/dist/clear'
 import './Content.css'
 import Grafico from './Grafico'
 import Selector from "./Selector"

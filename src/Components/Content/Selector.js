@@ -2,7 +2,6 @@ const Selector = () => {
     let selector
 
     const coins = {
-        "none" : "sobala",
         "btc" : "Bitcoin (BTC)",
         "eth" : "Etherium (ETH)",
         "sol" : "Solana (SOL)",
