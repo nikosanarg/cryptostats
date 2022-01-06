@@ -1,7 +1,7 @@
 # LOG
 # DEPENDENCIAS (npm i)
-- [x] - axios
-- [x] - coingecko-api
+- [x] axios
+- [x] coingecko-api
 # MAQUETACIÓN (web)
 - [ ] Maquetación
 - [ ] Estilo oscuro
@@ -14,11 +14,11 @@
 - [ ] Rose (ROSE)
 - [ ] Descentraland (MANA)
 - [ ] Sandbox (SAND)
-- [ ] Avalanche (AVAX)
-- [ ] Terra (LUNA)
 - [ ] Polkadot (DOT)
 - [ ] Cardano (ADA)
 - [ ] Polygon (MATIC)
+- [ ] Terra (LUNA)
+- [ ] Avalanche (AVAX)
 - [ ] Syscoin (SYS)
 - [ ] Doge (DOGE)
 - [ ] Shiba Inu (SHIB)
