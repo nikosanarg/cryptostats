@@ -13,20 +13,18 @@ const Grafico = (props) => {
             {props.prices.map((p, i) => {
                 let h = max - min // altura del gráfico en escala
                 let a = props.prices[i-1] // precio vela anterior
-                let velaColor, velaStart
+                let velaColor, velaSombra, velaStart
                 let velaHeight = Math.abs((p - a) / h * 220)
 
                 if (p - a < 0) {
                     velaColor = "red"
+                    velaSombra = "salmon"
                     velaStart = (((a - min) / h) * 220)-220
                 } else {
-                    velaColor = "lime"
+                    velaColor = "green"
+                    velaSombra = "lime"
                     velaStart = (((p - min) / h) * 220 )-220
                 }
-
-
-                console.log(p, a, h)
-                console.log(velaStart, velaHeight)
 
                 if (i !== 0) {
                     return <div 
@@ -36,6 +34,7 @@ const Grafico = (props) => {
                             background: velaColor,
                             height: velaHeight + "px",
                             bottom: velaStart + "px",
+                            "box-shadow": "inset 0 0 0 2px " + velaSombra
                         }}>
                     </div>
                 } 

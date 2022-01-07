@@ -3,8 +3,6 @@ import Grafico from './Grafico'
 import Selector from "./Selector"
 
 const Content = () => {
-    console.clear()
-
     let prices = []
     let scale = Math.random() * 400 + 1
     let prev = 0
