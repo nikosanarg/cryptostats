@@ -1,7 +1,6 @@
 # LOG
 # DEPENDENCIAS (npm i)
 - [x] axios
-- [x] coingecko-api
 # MAQUETACIÓN (web)
 - [ ] Maquetación
 - [ ] Estilo oscuro

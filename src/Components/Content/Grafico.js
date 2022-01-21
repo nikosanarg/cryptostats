@@ -19,11 +19,11 @@ const Grafico = (props) => {
                 if (p - a < 0) {
                     velaColor = "red"
                     velaSombra = "salmon"
-                    velaStart = (((a - min) / h) * 220)-220
+                    velaStart = ((a - min) / h * 220) - 220
                 } else {
                     velaColor = "green"
                     velaSombra = "lime"
-                    velaStart = (((p - min) / h) * 220 )-220
+                    velaStart = ((p - min) / h * 220) - 220
                 }
 
                 if (i !== 0) {
@@ -34,7 +34,7 @@ const Grafico = (props) => {
                             background: velaColor,
                             height: velaHeight + "px",
                             bottom: velaStart + "px",
-                            "box-shadow": "inset 0 0 0 2px " + velaSombra
+                            "box-shadow": "inset 0 0 2px 2px " + velaSombra
                         }}>
                     </div>
                 } 
